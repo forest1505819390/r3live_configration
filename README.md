@@ -21,3 +21,9 @@ R3lie中涉及到的各种包都在网盘中，网盘地址：
 (8) 如果跑得时候没成功再次跑一遍运行指令应该就成功了，但前提是你编译的过程中没有错误
 
 (9) 最后最好不要修改ubuntu20.04的g++版本，会导致安装过程中很多问题出现，使用刚装机的版本
+
+(10) 在编译R3live会报如下的错误：
+
+![缺少依赖](https://github.com/forest1505819390/r3live_configration/assets/149787309/29dff285-dc2d-4da2-a2af-6b6e8b13e1e1)
+
+执行：sudo apt install libcgal-dev 解决，重新编译即可
